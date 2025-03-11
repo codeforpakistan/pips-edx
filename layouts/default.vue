@@ -30,36 +30,21 @@ const links = [{
         <div class="grid grid-cols-12 gap-4">
           <div class="col-span-12 lg:col-span-4 flex gap-4 items-center grow">
             <span>Powered by:</span>
-            <a href="https://docs.tutor.edly.io"
-               rel="noopener"
-               target="_blank">
-              <img src="~/assets/tutor.png"
-                   alt="Runs on Tutor"
-                   width="57">
-            </a>
-            <a href="https://open.edx.org"
-               rel="noopener"
-               target="_blank">
-              <img src="~/assets/openedx.png"
-                   alt="Powered by Open edX"
-                   width="79">
-            </a>
+            <ULink to="https://docs.tutor.edly.io" target="_blank">
+              <img src="~/assets/tutor.png" alt="Runs on Tutor" width="57">
+            </ULink>
+            <ULink to="https://open.edx.org" target="_blank">
+              <img src="~/assets/openedx.png" alt="Powered by Open edX" width="79">
+            </ULink>
           </div>
           <nav class="col-span-12 lg:col-span-8 lg:text-right">
-            <a class="me-2"
-               href="/about">About Us</a>
-            <a class="mx-2"
-               href="/blog">Blog</a>
-            <a class="mx-2"
-               href="/donate">Donate</a>
-            <a class="mx-2"
-               href="/terms">Terms of Sevice</a>
-            <a class="mx-2"
-               href="/privacy">Privacy Policy</a>
-            <a class="mx-2"
-               href="/help">Help</a>
-            <a class="ms-2"
-               href="/contact">Contact Us</a>
+            <ULink class="me-2" to="/about">About Us</ULink>
+            <ULink class="mx-2" to="/blog">Blog</ULink>
+            <ULink class="mx-2" to="/donate">Donate</ULink>
+            <ULink class="mx-2" to="/terms">Terms of Sevice</ULink>
+            <ULink class="mx-2" to="/privacy">Privacy Policy</ULink>
+            <ULink class="mx-2" to="/help">Help</ULink>
+            <ULink class="ms-2" to="/contact">Contact Us</ULink>
           </nav>
         </div>
         <p class="my-4">Copyrights ©2025. All Rights Reserved.</p>
