@@ -7,7 +7,8 @@
         <p class="text-2xl">An initiative by the <strong>Pakistan Institute for Parliamentary Services</strong> to
           provide accessible digital learning resources</p>
         <p class="mt-8">
-          <UButton color="blue" size="xl" label="Start Learning"></UButton> <UButton color="blue" size="xl" label="About PIPS LMS"></UButton>
+          <UButton class="me-1" color="blue" size="xl" to="/courses" label="Start Learning"></UButton>
+          <UButton class="ms-1" color="blue" size="xl" to="/about" label="About PIPS LMS"></UButton>
         </p>
       </div>
     </UContainer>

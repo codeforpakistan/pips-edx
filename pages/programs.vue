@@ -1,7 +1,7 @@
 <template>
   <article class="py-8 md:py-12 xl:py-16">
     <UContainer>
-      <h1>Programs</h1>
+      <h1 class="text-2xl font-bold uppercase text-blue-900">Programs</h1>
     </UContainer>
   </article>
 </template>

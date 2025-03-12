@@ -6,7 +6,4 @@ export default defineNuxtConfig({
   colorMode: {
     preference: 'light'
   },
-  app: {
-    baseURL: '/pips-edx/'
-  }
 })

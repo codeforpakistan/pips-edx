@@ -1,7 +1,7 @@
 <template>
   <section class="p-8 md:p-12 xl:p-16">
     <UContainer class="py-8 md:py-12 xl:py-16">
-      <h2 class="uppercase text-2xl lg:text-4xl font-bold lg:text-center text-blue-500">Welcome to PIPS e-Learning</h2>
+      <h2 class="uppercase text-2xl lg:text-4xl font-bold lg:text-center text-blue-900">Welcome to PIPS e-Learning</h2>
       <p class="lg:text-2xl mt-4 mb-16 lg:text-center">Hear from our leadership about the vision, goals, and future of PIPS e-Learning</p>
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <div>
