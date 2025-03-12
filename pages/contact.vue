@@ -14,9 +14,9 @@ const items = [{
 }]
 </script>
 <template>
-  <article class="py-8 md:py-12 xl:py-16">
+  <article class="py-4 md:py-8 xl:py-16">
     <UContainer>
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+      <div class="grid grid-cols-1 xl:grid-cols-2 gap-16">
         <form class="flex flex-col gap-1">
           <h1 class="text-2xl font-bold uppercase text-blue-900 mb-4">Contact Us</h1>
           <UInput size="xl" v-model="name" placeholder="Your name" />

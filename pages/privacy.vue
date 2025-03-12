@@ -1,5 +1,5 @@
 <template>
-  <article class="py-8 md:py-12 xl:py-16">
+  <article class="py-4 md:py-8 xl:py-16">
     <UContainer>
       <h1 class="text-2xl font-bold uppercase text-blue-900 mb8">Privacy Policy</h1>
       <h4 class="text-xl mt-8 mb-4 border-b border-gray-200 dark:border-gray-800">Introduction</h4>

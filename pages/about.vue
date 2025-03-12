@@ -1,5 +1,5 @@
 <template>
-  <article class="py-8 md:py-12 xl:py-16">
+  <article class="py-4 md:py-8 xl:py-16">
     <UContainer class="mb-8">
       <h1 class="text-2xl font-bold uppercase text-blue-900 mb-8">About PIPS e-Learning Platform</h1>
       <p>The PIPS E-Learning Portal is an initiative of the Pakistan Institute for Parliamentary Services (PIPS) aimed

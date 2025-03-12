@@ -1,8 +1,8 @@
 <template>
-  <section class="py-8 md:py-12 xl:py-16 bg-gray-100">
+  <section class="py-4 md:py-8 xl:py-16 bg-gray-100">
     <UContainer>
     <h2 class="uppercase text-2xl font-bold text-blue-900">What does the LMS offer?</h2>
-    <div class="grid grid-cols-1 lg:grid-cols-4 gap-4 mt-8">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
       <UCard :ui="{ shadow: '' }">
         <h3 class="font-bold">Structure Self-Paced Courses</h3>
         <p>Organized lessons that let you learn at your own pace.</p>
